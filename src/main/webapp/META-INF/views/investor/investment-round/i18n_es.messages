@@ -1,0 +1,26 @@
+# i18n_es.messages
+#
+# Copyright (c) 2019 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+investor.investment-round.list.label.ticker = Teletipo
+investor.investment-round.list.label.creation = Fecha de creacion
+investor.investment-round.list.label.round = Tipo de ronda
+investor.investment-round.list.label.title = Titulo
+
+investor.investment-round.form.label.ticker = Teletipo
+investor.investment-round.form.label.creation = Fecha de creacion
+investor.investment-round.form.label.round = Tipo de ronda
+investor.investment-round.form.label.title = Titulo
+investor.investment-round.form.label.description = Descripcion
+investor.investment-round.form.label.amount = Cantidad de dinero
+investor.investment-round.form.label.optional = Link opcional
+
+
+investor.investment-round.form.button.associate = Aplicar
+investor.investment-round.form.button.return = Volver

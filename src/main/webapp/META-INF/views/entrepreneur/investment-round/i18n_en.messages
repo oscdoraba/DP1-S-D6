@@ -1,0 +1,40 @@
+# i18n_en.messages
+#
+# Copyright (c) 2019 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+entrepreneur.investment-round.list.label.ticker = Ticker
+entrepreneur.investment-round.list.label.creation = Creation Date
+entrepreneur.investment-round.list.label.round = Kind of Round
+entrepreneur.investment-round.list.label.title = Title
+
+entrepreneur.investment-round.form.label.ticker = Ticker
+entrepreneur.investment-round.form.label.creation = Creation Date
+entrepreneur.investment-round.form.label.round = Kind of Round
+entrepreneur.investment-round.form.label.title = Title
+entrepreneur.investment-round.form.label.description = Description
+entrepreneur.investment-round.form.label.amount = Amount of Money
+entrepreneur.investment-round.form.label.optional = Optional Link
+entrepreneur.investment-round.form.label.finalMode = Final Mode
+entrepreneur.investment-round.form.label.finalModeFuturo = You can select the a new value for your final mode
+entrepreneur.investment-round.form.label.true = Yes
+entrepreneur.investment-round.form.label.false = No
+
+entrepreneur.investment-round.error.titleSpam = You cannot save this investment round in final mode because the title contains excessive spam words
+entrepreneur.investment-round.error.descriptionSpam = You cannot save this investment round in final mode because the description contains excessive spam words
+entrepreneur.investment-round.error.sumaMal = You cannot save this investment round in final mode because the activity budgets in its work programme doesn't sum up to the total amount of money
+entrepreneur.investment-round.error.finalMode = You cannot save this investment round because its in final mode
+entrepreneur.investment-round.error.hayAplicaciones = You cannot delete this investment round because it has applications
+
+entrepreneur.investment-round.form.button.create = Create Investment Round
+entrepreneur.investment-round.form.button.update = Update
+entrepreneur.investment-round.form.button.delete = Delete
+entrepreneur.investment-round.form.button.return = Return
+entrepreneur.investment-round.form.button.activities = Work programme
+entrepreneur.investment-record.form.button.crearactividad = Create an Activity
+

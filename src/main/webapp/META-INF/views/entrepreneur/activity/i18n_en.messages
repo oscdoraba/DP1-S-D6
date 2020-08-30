@@ -1,0 +1,27 @@
+# i18n_en.messages
+#
+# Copyright (c) 2019 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+entrepreneur.activity.list.label.title = Title
+entrepreneur.activity.list.label.start = Start Date
+entrepreneur.activity.list.label.end = End Date
+entrepreneur.activity.list.label.budget = Budget
+
+entrepreneur.activity.form.label.title = Title
+entrepreneur.activity.form.label.start = Start Date
+entrepreneur.activity.form.label.end = End Date
+entrepreneur.activity.form.label.budget = Budget
+
+entrepreneur.activity.form.button.update = Update
+entrepreneur.activity.form.button.delete = Delete
+entrepreneur.activity.form.button.create = Create Activity
+entrepreneur.activity.form.button.return = Return
+
+entrepreneur.activity.error.titleSpam = The title contains excessive spam words
+entrepreneur.activity.error.budgetSePasa = The sum of the budgets is greater than the amount

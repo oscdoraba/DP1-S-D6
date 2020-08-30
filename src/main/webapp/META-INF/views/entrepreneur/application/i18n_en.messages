@@ -1,0 +1,31 @@
+# i18n_en.messages
+#
+# Copyright (c) 2019 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+entrepreneur.application.list.label.ticker = Ticker
+entrepreneur.application.list.label.dateOfCreation = Date of creation
+entrepreneur.application.list.label.statement = Deadline
+
+
+entrepreneur.application.form.label.ticker = Ticker
+entrepreneur.application.form.label.dateOfCreation = Date of creation
+entrepreneur.application.form.label.statement = Statement
+entrepreneur.application.form.label.moneyOffer = Offer
+entrepreneur.application.form.label.aceptacion = Your actual decision
+entrepreneur.application.form.label.aceptacionFutura = What decision do you want to make?
+entrepreneur.application.form.label.true = Accept application
+entrepreneur.application.form.label.false = Reject application
+entrepreneur.application.form.label.justificacion = Justification of your decision
+
+entrepreneur.application.error.debeJustificar = You must justify your rejection
+
+entrepreneur.application.form.button.update = Update
+entrepreneur.application.form.button.return = Return
+
+

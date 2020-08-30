@@ -1,0 +1,43 @@
+# i18n_es.messages
+#
+# Copyright (c) 2019 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+entrepreneur.investment-round.list.label.ticker = Teletipo
+entrepreneur.investment-round.list.label.creation = Fecha de creacion
+entrepreneur.investment-round.list.label.round = Tipo de ronda
+entrepreneur.investment-round.list.label.title = Titulo
+
+entrepreneur.investment-round.form.label.ticker = Teletipo
+entrepreneur.investment-round.form.label.creation = Fecha de creacion
+entrepreneur.investment-round.form.label.round = Tipo de ronda
+entrepreneur.investment-round.form.label.title = Titulo
+entrepreneur.investment-round.form.label.description = Descripcion
+entrepreneur.investment-round.form.label.amount = Cantidad de dinero
+entrepreneur.investment-round.form.label.optional = Link opcional
+entrepreneur.investment-round.form.label.finalMode = Modo Final
+entrepreneur.investment-round.form.label.finalModeFuturo = Puede seleccionar aquí un nuevo valor para el modo final
+entrepreneur.investment-round.form.label.true = Sí
+entrepreneur.investment-round.form.label.false = No
+
+entrepreneur.investment-round.error.titleSpam = No se puede guardar la ronda de inversion en modo final porque el titulo contiene excesivas palabras spam
+entrepreneur.investment-round.error.descriptionSpam = No se puede guardar la ronda de inversion en modo final porque la descripcion contiene excesivas palabras spam
+entrepreneur.investment-round.error.sumaMal = No se puede guardar la ronda de inversion en modo final porque la suma del presupuesto de sus actividades no tiene un valor igual a la cantidad de dinero que se debe utilizar en la inversion
+entrepreneur.investment-round.error.finalMode = No se puede guardar la ronda de inversion ya que se encuentra en modo final
+entrepreneur.investment-round.error.hayAplicaciones = No se puede eliminar la ronda de inversion puesto que posee aplicaciones
+
+
+entrepreneur.investment-round.form.button.create = Crear Ronda de Inversion
+entrepreneur.investment-round.form.button.update = Actualizar
+entrepreneur.investment-round.form.button.delete = Eliminar
+entrepreneur.investment-round.form.button.return = Volver
+entrepreneur.investment-round.form.button.activities = Programa de trabajo
+entrepreneur.investment-record.form.button.crearactividad = Crear una actividad
+
+
+
