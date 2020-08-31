@@ -19,6 +19,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import acme.entities.shout.Shout;
+import acme.features.anonymous.doradoBulletin.AnonymousDoradoBulletinShowService;
 import acme.framework.components.BasicCommand;
 import acme.framework.controllers.AbstractController;
 import acme.framework.entities.Anonymous;
@@ -33,6 +34,9 @@ public class AnonymousShoutController extends AbstractController<Anonymous, Shou
 	private AnonymousShoutListService listService;
 	
 	@Autowired
+	private AnonymousShoutShowService showService;
+	
+	@Autowired
 	private AnonymousShoutCreateService createService;
 
 
@@ -41,6 +45,7 @@ public class AnonymousShoutController extends AbstractController<Anonymous, Shou
 	@PostConstruct
 	private void initialise() {
 		super.addBasicCommand(BasicCommand.LIST, this.listService);
+		super.addBasicCommand(BasicCommand.SHOW, this.showService);
 		super.addBasicCommand(BasicCommand.CREATE, this.createService);
 	}
 

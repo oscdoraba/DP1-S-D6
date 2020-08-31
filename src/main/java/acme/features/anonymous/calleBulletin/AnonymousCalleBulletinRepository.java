@@ -26,4 +26,6 @@ public interface AnonymousCalleBulletinRepository extends AbstractRepository {
 	@Query("select c from CalleBulletin c")
 	Collection<CalleBulletin> findMany();
 
+	@Query("select c from CalleBulletin c where c.id = ?1")
+	CalleBulletin findOne(Integer id);
 }

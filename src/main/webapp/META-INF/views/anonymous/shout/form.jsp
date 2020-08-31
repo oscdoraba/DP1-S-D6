@@ -17,9 +17,13 @@
 
 <acme:form>
 	<acme:form-textbox code="anonymous.shout.form.label.author" path="author"/>
+	<jstl:if test="${command !='create'}">
+	<acme:form-moment code="anonymous.shout.form.label.moment" path="moment"/>
+	</jstl:if>
 	<acme:form-textbox code="anonymous.shout.form.label.text" path="text"/>
 	
-
+	<jstl:if test="${command !='show'}">
 	<acme:form-submit code="anonymous.shout.form.button.create" action="/anonymous/shout/create"/>
+	</jstl:if>
 	<acme:form-return code="anonymous.shout.form.button.return"/>
 </acme:form>

@@ -16,6 +16,7 @@ anonymous.calle-bulletin.list.label.moment = Moment
 anonymous.calle-bulletin.form.label.title = Title
 anonymous.calle-bulletin.form.label.artist = Artist
 anonymous.calle-bulletin.form.label.album = Album
+anonymous.calle-bulletin.form.label.moment = Moment
 
 
 anonymous.calle-bulletin.form.button.create = Create CalleBulletin
