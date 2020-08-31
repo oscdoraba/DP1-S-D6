@@ -10,7 +10,7 @@
 
 investor.application.list.label.ticker = Ticker
 investor.application.list.label.dateOfCreation = Date of creation
-investor.application.list.label.statement = Deadline
+investor.application.list.label.statement = Statement
 
 
 investor.application.form.label.ticker = Ticker

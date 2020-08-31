@@ -31,6 +31,7 @@ entrepreneur.investment-round.error.descriptionSpam = You cannot save this inves
 entrepreneur.investment-round.error.sumaMal = You cannot save this investment round in final mode because the activity budgets in its work programme doesn't sum up to the total amount of money
 entrepreneur.investment-round.error.finalMode = You cannot save this investment round because its in final mode
 entrepreneur.investment-round.error.hayAplicaciones = You cannot delete this investment round because it has applications
+entrepreneur.investment-round.error.label.onlyOne = This ticker already exist.
 
 entrepreneur.investment-round.form.button.create = Create Investment Round
 entrepreneur.investment-round.form.button.update = Update
