@@ -19,6 +19,7 @@
 	<acme:form-textbox code="anonymous.calle-bulletin.form.label.title" path="title"/>
 	<acme:form-textbox code="anonymous.calle-bulletin.form.label.artist" path="artist"/>
 	<acme:form-textbox code="anonymous.calle-bulletin.form.label.album" path="album"/>
+	
 
 	<acme:form-submit code="anonymous.calle-bulletin.form.button.create" action="/anonymous/calle-bulletin/create"/>
 	<acme:form-return code="anonymous.calle-bulletin.form.button.return"/>

@@ -15,7 +15,7 @@ package acme.features.authenticated.entrepreneur;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
 
-import acme.entities.roles.Consumer;
+
 import acme.entities.roles.Entrepreneur;
 import acme.framework.entities.UserAccount;
 import acme.framework.repositories.AbstractRepository;

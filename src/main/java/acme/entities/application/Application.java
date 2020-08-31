@@ -13,6 +13,8 @@ import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Past;
 import javax.validation.constraints.Pattern;
 
+import org.hibernate.validator.constraints.Length;
+
 import acme.entities.investmentRound.InvestmentRound;
 import acme.entities.roles.Investor;
 import acme.framework.datatypes.Money;
@@ -43,6 +45,7 @@ public class Application extends DomainEntity {
 		private Date dateOfCreation;
 		
 		@NotBlank
+		@Length(min = 20)
 		private String statement;
 		
 		@NotNull
