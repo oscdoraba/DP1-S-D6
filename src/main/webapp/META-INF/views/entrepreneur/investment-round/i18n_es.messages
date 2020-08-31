@@ -30,7 +30,7 @@ entrepreneur.investment-round.error.descriptionSpam = No se puede guardar la ron
 entrepreneur.investment-round.error.sumaMal = No se puede guardar la ronda de inversion en modo final porque la suma del presupuesto de sus actividades no tiene un valor igual a la cantidad de dinero que se debe utilizar en la inversion
 entrepreneur.investment-round.error.finalMode = No se puede guardar la ronda de inversion ya que se encuentra en modo final
 entrepreneur.investment-round.error.hayAplicaciones = No se puede eliminar la ronda de inversion puesto que posee aplicaciones
-
+entrepreneur.investment-round.error.label.onlyOne = Este código bursátil ya existe.
 
 entrepreneur.investment-round.form.button.create = Crear Ronda de Inversion
 entrepreneur.investment-round.form.button.update = Actualizar

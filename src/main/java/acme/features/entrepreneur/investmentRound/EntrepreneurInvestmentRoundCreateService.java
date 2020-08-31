@@ -76,6 +76,10 @@ public class EntrepreneurInvestmentRoundCreateService implements AbstractCreateS
 		assert entity != null;
 		assert errors != null;
 		
+		if (!errors.hasErrors("ticker")) {
+			boolean isOnlyOne = this.repository.findInvestmentRoundTicker(entity.getTicker()) != null;
+			errors.state(request, !isOnlyOne, "ticker", "entrepreneur.investment-round.error.label.onlyOne");
+		}
 
 	}
 
