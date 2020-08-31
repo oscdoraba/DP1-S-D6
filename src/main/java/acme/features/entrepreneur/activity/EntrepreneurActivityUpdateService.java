@@ -71,6 +71,7 @@ public class EntrepreneurActivityUpdateService implements AbstractUpdateService<
 		
 
 		Boolean esSpamTitulo = false;
+		boolean isCurrencyEuro;
 		Integer threshold = 2; //El numero de palabras de spam en los campos titulo y descripcion no puede superar este entero (Limite)
 		Integer palabrasSpamTitulo= 0;
 		List<String> spamWords = new ArrayList<>();
@@ -111,6 +112,15 @@ public class EntrepreneurActivityUpdateService implements AbstractUpdateService<
 			}
 			errors.state(request, !esSpamTitulo, "title", "entrepreneur.investment-round.error.titleSpam");
 			
+		}
+		
+
+		// Comprobamos las divisas:
+		
+		if (!errors.hasErrors("amount")) { 
+			String currency = entity.getBudget().getCurrency();
+			isCurrencyEuro = currency.equals("€") || currency.equals("EUR");
+			errors.state(request, isCurrencyEuro, "budget", "entreprenur.actvity.error.euro-currency");
 		}
 
 		

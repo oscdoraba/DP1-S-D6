@@ -71,13 +71,13 @@ public class AdministratorOvertureUpdateService implements AbstractUpdateService
 		if (!errors.hasErrors("minMoney")) { 
 			String currencyMin = entity.getMinMoney().getCurrency();
 			isCurrencyMinEuro = currencyMin.equals("€") || currencyMin.equals("EUR");
-			errors.state(request, isCurrencyMinEuro, "minMoney", "administrator.inquiries.error.min-euro-currency");
+			errors.state(request, isCurrencyMinEuro, "minMoney", "administrator.overture.error.min-euro-currency");
 		}
 
 		if (!errors.hasErrors("maxMoney")) {
 			String currencyMax = entity.getMaxMoney().getCurrency();
 			isCurrencyEuroMaxEuro = currencyMax.equals("€") || currencyMax.equals("EUR");
-			errors.state(request, isCurrencyEuroMaxEuro, "maxMoney", "administrator.inquiries.error.max-euro-currency");
+			errors.state(request, isCurrencyEuroMaxEuro, "maxMoney", "administrator.overture.error.max-euro-currency");
 		}
 
 		// El máximo del intervalo del dinero debe ser mayor que el mínimo:
@@ -85,7 +85,7 @@ public class AdministratorOvertureUpdateService implements AbstractUpdateService
 			Double minAmount = entity.getMinMoney().getAmount();
 			Double maxAmount = entity.getMaxMoney().getAmount();
 			isMinMax = minAmount < maxAmount;
-			errors.state(request, isMinMax, "maxMoney", "administrator.inquiries.error.not-max");
+			errors.state(request, isMinMax, "maxMoney", "administrator.overture.error.not-max");
 		}
 
 	}

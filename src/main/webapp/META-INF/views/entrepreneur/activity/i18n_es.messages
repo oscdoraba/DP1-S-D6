@@ -17,6 +17,7 @@ entrepreneur.activity.form.label.title = Titulo
 entrepreneur.activity.form.label.start = Fecha de inicio
 entrepreneur.activity.form.label.end = Fecha de finalizacion
 entrepreneur.activity.form.label.budget = Presupuesto
+entreprenur.actvity.error.euro-currency = La divisa debe ser EUR o €.
 
 entrepreneur.activity.form.button.update = Actualizar
 entrepreneur.activity.form.button.delete = Eliminar

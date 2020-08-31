@@ -76,10 +76,23 @@ public class EntrepreneurInvestmentRoundCreateService implements AbstractCreateS
 		assert entity != null;
 		assert errors != null;
 		
+
+		boolean isCurrencyEuro;
+		
+		// Comprobamos las divisas:
+		
+				if (!errors.hasErrors("amount")) { 
+					String currency = entity.getAmount().getCurrency();
+					isCurrencyEuro = currency.equals("€") || currency.equals("EUR");
+					errors.state(request, isCurrencyEuro, "amount", "entreprenur.investment-round.error.euro-currency");
+				}
+		
+
 		if (!errors.hasErrors("ticker")) {
 			boolean isOnlyOne = this.repository.findInvestmentRoundTicker(entity.getTicker()) != null;
 			errors.state(request, !isOnlyOne, "ticker", "entrepreneur.investment-round.error.label.onlyOne");
 		}
+
 
 	}
 
