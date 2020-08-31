@@ -18,7 +18,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import acme.entities.calleBulletin.CalleBulletin;
-import acme.entities.shout.Shout;
 import acme.framework.components.Model;
 import acme.framework.components.Request;
 import acme.framework.entities.Anonymous;
@@ -50,7 +49,7 @@ public class AnonymousCalleBulletinListService implements AbstractListService<An
 
 		
 
-		request.unbind(entity, model, "title", "artist", "album");
+		request.unbind(entity, model, "title", "artist", "album", "moment");
 
 	}
 	

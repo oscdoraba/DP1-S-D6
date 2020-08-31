@@ -6,6 +6,7 @@ import javax.persistence.Entity;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Past;
 
 import acme.framework.entities.DomainEntity;
@@ -33,6 +34,7 @@ public class CalleBulletin extends DomainEntity{
 	private String album;
 		
 	@Temporal(TemporalType.TIMESTAMP)
+	@NotNull
 	@Past
 	private Date moment;
 		

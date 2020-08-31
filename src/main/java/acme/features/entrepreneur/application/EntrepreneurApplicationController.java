@@ -17,11 +17,14 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+
 import acme.components.CustomCommand;
 import acme.entities.application.Application;
 import acme.entities.roles.Entrepreneur;
 import acme.framework.components.BasicCommand;
 import acme.framework.controllers.AbstractController;
+
+
 
 @Controller
 @RequestMapping("/entrepreneur/application/")
@@ -31,6 +34,9 @@ public class EntrepreneurApplicationController extends AbstractController<Entrep
 
 	@Autowired
 	private EntrepreneurApplicationListMineService listMineService;
+	
+	@Autowired
+	private EntrepreneurApplicationListMineGroupedService listMineGroupedService;
 	
 	@Autowired
 	private EntrepreneurApplicationShowService showService;
@@ -44,7 +50,9 @@ public class EntrepreneurApplicationController extends AbstractController<Entrep
 
 	@PostConstruct
 	private void initialise() {
+		
 		super.addCustomCommand(CustomCommand.LIST_MINE, BasicCommand.LIST, this.listMineService);
+		super.addCustomCommand(CustomCommand.LIST_GROUP, BasicCommand.LIST, this.listMineGroupedService);
 		super.addBasicCommand(BasicCommand.SHOW, this.showService);
 		super.addBasicCommand(BasicCommand.UPDATE, this.updateService);
 		

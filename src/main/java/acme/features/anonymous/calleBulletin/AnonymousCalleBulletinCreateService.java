@@ -18,7 +18,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import acme.entities.calleBulletin.CalleBulletin;
-import acme.entities.shout.Shout;
 import acme.framework.components.Errors;
 import acme.framework.components.Model;
 import acme.framework.components.Request;
@@ -97,10 +96,7 @@ public class AnonymousCalleBulletinCreateService implements AbstractCreateServic
 		assert request != null;
 		assert entity != null;
 
-		Date moment;
 		
-		moment = new Date(System.currentTimeMillis() - 1);
-		entity.setMoment(moment);
 		this.repository.save(entity);
 		
 	}

@@ -16,7 +16,7 @@
 <%@taglib prefix="acme" tagdir="/WEB-INF/tags"%>
 
 <acme:form>
-	<acme:form-textbox code="investor.application.form.label.ticker" path="ticker"/>
+	<acme:form-textbox code="investor.application.form.label.ticker" path="ticker" placeholder="ABC-20-123456"/>
 	<jstl:if test="${command !='create'}">
 	<acme:form-moment code="investor.application.form.label.dateOfCreation" path="dateOfCreation" readonly="true"/>
 	</jstl:if>

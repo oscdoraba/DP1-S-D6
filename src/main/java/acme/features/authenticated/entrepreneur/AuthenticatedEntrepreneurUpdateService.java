@@ -15,7 +15,7 @@ package acme.features.authenticated.entrepreneur;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import acme.entities.roles.Consumer;
+
 import acme.entities.roles.Entrepreneur;
 import acme.framework.components.Errors;
 import acme.framework.components.HttpMethod;

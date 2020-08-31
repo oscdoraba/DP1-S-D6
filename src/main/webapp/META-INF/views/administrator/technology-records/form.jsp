@@ -20,9 +20,9 @@
 	<acme:form-textbox code="administrator.technologyRecords.form.label.activitySector" path="activitySector"/>
 	<acme:form-textbox code="administrator.technologyRecords.form.label.inventor" path="inventor"/>
 	<acme:form-textarea code="administrator.technologyRecords.form.label.description" path="description"/>
-	<acme:form-textbox code="administrator.technologyRecords.form.label.website" path="website"/>
+	<acme:form-url code="administrator.technologyRecords.form.label.website" path="website"/>
 	<acme:form-textbox code="administrator.technologyRecords.form.label.email" path="email"/>
-	<acme:form-textbox code="administrator.technologyRecords.form.label.indication" path="indication"/>
+	<acme:form-textbox code="administrator.technologyRecords.form.label.indication" path="indication" placeholder="OPEN_SOURCE, CLOSE_SOURCE"/>
 	<acme:form-integer code="administrator.technologyRecords.form.label.stars" path="stars"/>
 	
 
