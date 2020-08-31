@@ -55,7 +55,7 @@ public class AnonymousNoticeListService implements AbstractListService<Anonymous
 
 		
 
-		request.unbind(entity, model, "picture", "creation", "deadline");
+		request.unbind(entity, model,"title", "picture", "creation", "deadline");
 
 	}
 	

@@ -165,25 +165,23 @@
 	<!-- Notice -->
 	
 	<bean id="notice01" class="acme.entities.notice.Notice">
-	
 	<property name="picture" value="https://www.fotoAviso1.com"/>
+	<property name="title" value="Aviso Numero 1"/>
 	<property name="creation" value="2020/06/06 10:00"/>
-	<property name="deadline" value="2021/10/10 12:00"/>
+	<property name="deadline" value="2021/08/20 18:13"/>
 	<property name="body" value="Aviso sobre reformas laborales"/>
 	<property name="optional1" value="https://www.fotoInformativaOpcional1.com"/>
 	<property name="optional2" value=""/>
-	
 	</bean>
 	
 	<bean id="notice02" class="acme.entities.notice.Notice">
-	
 	<property name="picture" value="https://www.fotoAviso2.com"/>
+	<property name="title" value="Aviso Numero 2"/>
 	<property name="creation" value="2020/06/06 10:00"/>
 	<property name="deadline" value="2021/08/07 14:20"/>  <!-- 	Si queremos comprobar que solo se muestren las activas la creamos un minuto -->
 	<property name="body" value="Aviso sobre reformas laborales"/> <!-- más tarde de la hora actual (mientras esperamos al sample ya habra pasado -->
 	<property name="optional1" value="https://www.fotoInformativaOpcional2.com"/> <!-- ese tiempo) -->
 	<property name="optional2" value=""/>
-	
 	</bean>
 	
 	<!-- Overture -->
@@ -223,7 +221,7 @@
 	<property name="website" value="http://www.conchibermudez.com"/>
 	<property name="email" value="conchibermudez@gmail.com"/>
 	<property name="tipo" value="OPEN_SOURCE"/>
-	<property name="stars" value="4"/>
+	<property name="stars" value="8"/>
 	
 	</bean>
 	
@@ -236,7 +234,7 @@
 	<property name="website" value="http://www.josejuancanizares.com"/>
 	<property name="email" value="josejuancanizares@gmail.com"/>
 	<property name="tipo" value="CLOSED_SOURCE"/>
-	<property name="stars" value="2"/>
+	<property name="stars" value="4"/>
 	
 	</bean>
 
@@ -453,7 +451,7 @@
 	
 	<property name="ticker" value="INI-20-540987"/>
 	<property name="dateOfCreation" value="2020/08/12 13:07"/>
-	<property name="statement" value="Los auspiciamos."/>
+	<property name="statement" value="Nosotros los auspiciamos."/>
 	<property name="moneyOffer" value="567.20 EUR" />
 	<property name="aceptacion" value="true"/>
 	<property name="justificacion" value=""/>
