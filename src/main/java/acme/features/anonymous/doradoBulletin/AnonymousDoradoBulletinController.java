@@ -34,6 +34,9 @@ public class AnonymousDoradoBulletinController extends AbstractController<Anonym
 	private AnonymousDoradoBulletinListService listService;
 	
 	@Autowired
+	private AnonymousDoradoBulletinShowService showService;
+	
+	@Autowired
 	private AnonymousDoradoBulletinCreateService createService;
 
 
@@ -42,6 +45,7 @@ public class AnonymousDoradoBulletinController extends AbstractController<Anonym
 	@PostConstruct
 	private void initialise() {
 		super.addBasicCommand(BasicCommand.LIST, this.listService);
+		super.addBasicCommand(BasicCommand.SHOW, this.showService);
 		super.addBasicCommand(BasicCommand.CREATE, this.createService);
 	}
 
