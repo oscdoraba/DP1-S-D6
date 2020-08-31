@@ -31,7 +31,7 @@ public class AnonymousNoticeShowService implements AbstractShowService<Anonymous
 		assert entity != null;
 		assert model != null;
 
-		request.unbind(entity, model, "picture", "creation", "deadline", "body", "optional1", "optional2");
+		request.unbind(entity, model, "picture" , "title", "creation", "deadline", "body", "optional1", "optional2");
 	}
 
 	@Override

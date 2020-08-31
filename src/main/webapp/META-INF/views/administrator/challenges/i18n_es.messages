@@ -11,22 +11,22 @@
 administrator.challenges.list.label.title = Título
 administrator.challenges.list.label.deadline = Fecha límite
 administrator.challenges.list.label.description = Descripción
-administrator.challenges.list.label.goal1 =  Primer Objetivo
-administrator.challenges.list.label.reward1 = Primer Premio
-administrator.challenges.list.label.goal2 = Segundo Objetivo
-administrator.challenges.list.label.reward2 = Segundo Premio
-administrator.challenges.list.label.goal3 = Tercer Objetivo
-administrator.challenges.list.label.reward3 = Tercer Premio
+administrator.challenges.list.label.goal1 =  Primer Objetivo (Experto)
+administrator.challenges.list.label.reward1 = Primer Premio (Experto)
+administrator.challenges.list.label.goal2 = Segundo Objetivo (Medio)
+administrator.challenges.list.label.reward2 = Segundo Premio (Medio)
+administrator.challenges.list.label.goal3 = Tercer Objetivo (Novato)
+administrator.challenges.list.label.reward3 = Tercer Premio (Novato)
 
 administrator.challenges.form.label.title = Título
 administrator.challenges.form.label.deadline = Fecha límite
 administrator.challenges.form.label.description = Descripción
-administrator.challenges.form.label.goal1 =  Primer Objetivo
-administrator.challenges.form.label.reward1 = Primer Premio
-administrator.challenges.form.label.goal2 = Segundo Objetivo
-administrator.challenges.form.label.reward2 = Segundo Premio
-administrator.challenges.form.label.goal3 = Tercer Objetivo
-administrator.challenges.form.label.reward3 = Tercer Premio
+administrator.challenges.form.label.goal1 =  Primer Objetivo (Experto)
+administrator.challenges.form.label.reward1 = Primer Premio (Experto)
+administrator.challenges.form.label.goal2 = Segundo Objetivo (Medio)
+administrator.challenges.form.label.reward2 = Segundo Premio (Medio)
+administrator.challenges.form.label.goal3 = Tercer Objetivo (Novato)
+administrator.challenges.form.label.reward3 = Tercer Premio (Novato)
 
 administrator.challenges.form.button.create = Crear 
 administrator.challenges.form.button.update = Actualizar

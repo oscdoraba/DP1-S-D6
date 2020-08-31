@@ -1,6 +1,10 @@
 
     alter table `activity` 
        drop 
+       foreign key `FKc631l96iygjg328of4tfeoqo3`;
+
+    alter table `activity` 
+       drop 
        foreign key `FKev7kvr6qe9wut886e6ju0o9gs`;
 
     alter table `administrator` 
@@ -22,10 +26,6 @@
     alter table `authenticated` 
        drop 
        foreign key FK_h52w0f3wjoi68b63wv9vwon57;
-
-    alter table `consumer` 
-       drop 
-       foreign key FK_6cyha9f1wpj0dpbxrrjddrqed;
 
     alter table `entrepreneur` 
        drop 
@@ -56,8 +56,6 @@
     drop table if exists `calle_bulletin`;
 
     drop table if exists `challenges`;
-
-    drop table if exists `consumer`;
 
     drop table if exists `dorado_bulletin`;
 

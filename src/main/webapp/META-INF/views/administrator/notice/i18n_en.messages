@@ -8,12 +8,13 @@
 # purposes.  The copyright owner does not offer any warranties or representations, nor do
 # they accept any liabilities with respect to them.
 
-administrator.notice.list.label.picture = URL of the picture
+administrator.notice.list.label.title= Title
 administrator.notice.list.label.creation = Creation Date
 administrator.notice.list.label.deadline = Deadline Date
 
 
 administrator.notice.form.label.picture = URL of the picture
+administrator.notice.form.label.title = Title
 administrator.notice.form.label.creation = Creation Date
 administrator.notice.form.label.deadline = Deadline Date
 administrator.notice.form.label.body = Body
