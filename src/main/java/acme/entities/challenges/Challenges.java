@@ -8,6 +8,8 @@ import javax.validation.constraints.Future;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 
+import org.hibernate.validator.constraints.Length;
+
 import acme.framework.entities.DomainEntity;
 import lombok.Getter;
 import lombok.Setter;
@@ -28,6 +30,7 @@ public class Challenges extends DomainEntity {
 	private Date				deadline;
 
 	@NotBlank
+	@Length(min = 20)
 	private String				description;
 
 	@NotBlank

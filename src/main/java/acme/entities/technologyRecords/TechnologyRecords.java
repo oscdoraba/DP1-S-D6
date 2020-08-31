@@ -7,6 +7,7 @@ import javax.validation.constraints.Min;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 
+import org.hibernate.validator.constraints.Length;
 import org.hibernate.validator.constraints.URL;
 
 import acme.framework.entities.DomainEntity;
@@ -33,6 +34,7 @@ public class TechnologyRecords extends DomainEntity{
 	    String inventor;
 	    
 	    @NotBlank
+	    @Length(min = 20)
 	    String description ;
 	    
 	    @URL
