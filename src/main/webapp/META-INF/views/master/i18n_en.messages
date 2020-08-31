@@ -60,15 +60,6 @@ master.menu.administrator.createToolRecord = Create Tool Record
 master.menu.administrator.listChallenges = List Challenges
 master.menu.administrator.createChallenges = Create Challenge
 
-# master.menu.provider ########################################################
-
-master.menu.provider = Provider
-master.menu.provider.favourite-link = Favourite link
-
-# master.menu.consumer ##########################################################
-
-master.menu.consumer = Consumer
-master.menu.consumer.favourite-link = Favourite link
 
 # master.menu.investor ##########################################################
 
@@ -80,10 +71,6 @@ master.menu.investor.listInvestment-round = List Investment Round
 
 master.menu.user-account = Account
 master.menu.user-account.general-data = General data
-master.menu.user-account.provider = Provider data
-master.menu.user-account.become-provider = Become a provider
-master.menu.user-account.consumer = Consumer data
-master.menu.user-account.become-consumer = Become a consumer
 master.menu.user-account.become-entrepreneur = Become an entrepreneur
 master.menu.user-account.entrepreneur = Entrepreneur Data
 master.menu.user-account.investor = Investor Data
