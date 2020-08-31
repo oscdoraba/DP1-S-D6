@@ -11,22 +11,22 @@
 administrator.challenges.list.label.title = Title
 administrator.challenges.list.label.deadline = Deadline
 administrator.challenges.list.label.description = Description
-administrator.challenges.list.label.goal1 =  First Goal
-administrator.challenges.list.label.reward1 = First Reward
-administrator.challenges.list.label.goal2 = Second Goal
-administrator.challenges.list.label.reward2 = Second Reward
-administrator.challenges.list.label.goal3 = Third Goal
-administrator.challenges.list.label.reward3 = Third Reward
+administrator.challenges.list.label.goal1 =  First Goal (Expert)
+administrator.challenges.list.label.reward1 = First Reward (Expert)
+administrator.challenges.list.label.goal2 = Second Goal (Average)
+administrator.challenges.list.label.reward2 = Second Reward (Average)
+administrator.challenges.list.label.goal3 = Third Goal (Rookie)
+administrator.challenges.list.label.reward3 = Third Reward (Rookie)
 
 administrator.challenges.form.label.title = Title
 administrator.challenges.form.label.deadline = Deadline
 administrator.challenges.form.label.description = Description
-administrator.challenges.form.label.goal1 =  First Goal
-administrator.challenges.form.label.reward1 = First Reward
-administrator.challenges.form.label.goal2 = Second Goal
-administrator.challenges.form.label.reward2 = Second Reward
-administrator.challenges.form.label.goal3 = Third Goal
-administrator.challenges.form.label.reward3 = Third Reward
+administrator.challenges.form.label.goal1 =  First Goal (Expert)
+administrator.challenges.form.label.reward1 = First Reward (Expert)
+administrator.challenges.form.label.goal2 = Second Goal (Average)
+administrator.challenges.form.label.reward2 = Second Reward (Average)
+administrator.challenges.form.label.goal3 = Third Goal (Rookie)
+administrator.challenges.form.label.reward3 = Third Reward (Rookie)
 
 administrator.challenges.form.button.create = Create
 administrator.challenges.form.button.update = Update

@@ -11,22 +11,22 @@
 authenticated.challenges.list.label.title = Title
 authenticated.challenges.list.label.deadline = Deadline
 authenticated.challenges.list.label.description = Description
-authenticated.challenges.list.label.goal1 =  First Goal
-authenticated.challenges.list.label.reward1 = First Reward
-authenticated.challenges.list.label.goal2 = Second Goal
-authenticated.challenges.list.label.reward2 = Second Reward
-authenticated.challenges.list.label.goal3 = Third Goal
-authenticated.challenges.list.label.reward3 = Third Reward
+authenticated.challenges.list.label.goal1 =  First Goal (Expert)
+authenticated.challenges.list.label.reward1 = First Reward (Expert)
+authenticated.challenges.list.label.goal2 = Second Goal (Average)
+authenticated.challenges.list.label.reward2 = Second Reward (Average)
+authenticated.challenges.list.label.goal3 = Third Goal (Rookie)
+authenticated.challenges.list.label.reward3 = Third Reward (Rookie)
 
 authenticated.challenges.form.label.title = Title
 authenticated.challenges.form.label.deadline = Deadline
 authenticated.challenges.form.label.description = Description
-authenticated.challenges.form.label.goal1 =  First Goal
-authenticated.challenges.form.label.reward1 = First Reward
-authenticated.challenges.form.label.goal2 = Second Goal
-authenticated.challenges.form.label.reward2 = Second Reward
-authenticated.challenges.form.label.goal3 = Third Goal
-authenticated.challenges.form.label.reward3 = Third Reward
+authenticated.challenges.form.label.goal1 =  First Goal (Expert)
+authenticated.challenges.form.label.reward1 = First Reward (Expert)
+authenticated.challenges.form.label.goal2 = Second Goal (Average)
+authenticated.challenges.form.label.reward2 = Second Reward (Average)
+authenticated.challenges.form.label.goal3 = Third Goal (Rookie)
+authenticated.challenges.form.label.reward3 = Third Reward (Rookie)
 
 
 authenticated.challenges.form.button.return = Return

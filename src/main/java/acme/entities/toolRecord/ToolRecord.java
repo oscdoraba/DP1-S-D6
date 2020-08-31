@@ -56,7 +56,7 @@ public class ToolRecord extends DomainEntity{
 	
 	@NotNull
 	@Min(value = 0)
-	@Max(value = 5)
+	@Max(value = 10)
 	private Integer				stars;
 		
 

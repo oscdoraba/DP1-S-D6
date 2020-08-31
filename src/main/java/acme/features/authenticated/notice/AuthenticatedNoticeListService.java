@@ -56,7 +56,7 @@ public class AuthenticatedNoticeListService implements AbstractListService<Authe
 
 		
 
-		request.unbind(entity, model, "picture", "creation", "deadline");
+		request.unbind(entity, model, "picture", "title", "creation", "deadline");
 
 	}
 	

@@ -17,6 +17,7 @@
 
 <acme:form>
 	<acme:form-textbox code="administrator.notice.form.label.picture" path="picture"/>
+	<acme:form-textbox code="administrator.notice.form.label.title" path="title"/>
 	<jstl:if test="${command !='create'}">
 	<acme:form-textbox code="administrator.notice.form.label.creation" path="creation"/>
 	</jstl:if>

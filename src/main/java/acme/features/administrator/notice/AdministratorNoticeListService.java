@@ -56,7 +56,7 @@ public class AdministratorNoticeListService implements AbstractListService<Admin
 
 		
 
-		request.unbind(entity, model, "picture", "creation", "deadline");
+		request.unbind(entity, model, "picture", "title", "creation", "deadline");
 
 	}
 	

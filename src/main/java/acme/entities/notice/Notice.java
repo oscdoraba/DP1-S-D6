@@ -30,6 +30,9 @@ public class Notice extends DomainEntity{
 	@URL
 	private String picture;
 	
+	@NotBlank
+	private String title;
+	
 	@Temporal(TemporalType.TIMESTAMP)
 	@Past
 	@NotNull
