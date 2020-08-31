@@ -103,6 +103,7 @@ master.menu.entrepreneur = Entrepreneur
 master.menu.entrepreneur.investment-round.list = List My Investment Rounds
 master.menu.administrator.createInvestmentRound = Create an Investment Round
 master.menu.entrepreneur.application.list = List Applications from My Investment Round
+master.menu.entrepreneur.application.listGroup = List Applications from My Investment Round Grouped
 
 # master.footer ###############################################################
 

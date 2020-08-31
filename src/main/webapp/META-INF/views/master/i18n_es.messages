@@ -102,7 +102,7 @@ master.menu.entrepreneur = Emprendedor
 master.menu.entrepreneur.investment-round.list = Listar Mis Rondas de Inversion
 master.menu.administrator.createInvestmentRound = Crear una Ronda de Inversion
 master.menu.entrepreneur.application.list = Listar Aplicaciones de Mis Rondas de Inversión
-
+master.menu.entrepreneur.application.listGroup = Listar Aplicaciones de Mis Rondas de Inversión Agrupadas
 ﻿# master.footer ###############################################################
 
 master.footer.title.about = Nosotros
