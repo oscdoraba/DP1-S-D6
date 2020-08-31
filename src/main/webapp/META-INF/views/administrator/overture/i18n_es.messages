@@ -22,6 +22,9 @@ administrator.overture.form.label.description = Descripcion
 administrator.overture.form.label.minMoney = Presupuesto minimo
 administrator.overture.form.label.maxMoney = Presupuesto maximo
 administrator.overture.form.label.email = Email
+administrator.overture.error.min-euro-currency = La divisa debe estar EUR o €.
+administrator.overture.error.max-euro-currency = Lad divisa debe estar EUR o €.
+administrator.overture.error.not-max = La cantidad de dinero máximo debe ser mayor que la cantidad de dinero mínimo.
 
 
 administrator.overture.form.button.create = Crear propuesta

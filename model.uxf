@@ -60,9 +60,6 @@ bg=blue</panel_attributes>
 </panel_attributes>
     <additional_attributes>10.0;40.0;10.0;10.0</additional_attributes>
   </element>
-  
-  
-  
   <element>
     <id>Relation</id>
     <coordinates>
@@ -74,9 +71,6 @@ bg=blue</panel_attributes>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;10.0;80.0;90.0</additional_attributes>
   </element>
-
-
-
   <element>
     <id>UMLClass</id>
     <coordinates>
@@ -174,7 +168,6 @@ bg=orange</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>112</x>
       <x>91</x>
       <y>126</y>
       <w>154</w>
@@ -285,7 +278,6 @@ Notice
 </panel_attributes>
     <additional_attributes/>
   </element>
-  
   <element>
     <id>UMLClass</id>
     <coordinates>
@@ -304,8 +296,7 @@ CalleBulletin
 </panel_attributes>
     <additional_attributes/>
   </element>
-
-<element>
+  <element>
     <id>UMLClass</id>
     <coordinates>
       <x>0</x>
@@ -339,7 +330,6 @@ Shout
 </panel_attributes>
     <additional_attributes/>
   </element>
-  
   <element>
     <id>UMLClass</id>
     <coordinates>
@@ -432,7 +422,7 @@ bg=yellow</panel_attributes>
 Indication
 --
 + OPEN_SOURCE
-+ CLOSE_SOURCE
++ CLOSED_SOURCE
 </panel_attributes>
     <additional_attributes/>
   </element>
@@ -668,30 +658,5 @@ m2=1
 Registed by ^
 </panel_attributes>
     <additional_attributes>10.0;120.0;10.0;10.0</additional_attributes>
-  </element>
-  
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>280</x>
-      <y>434</y>
-      <w>266</w>
-      <h>91</h>
-    </coordinates>
-    <panel_attributes>&lt;&lt;Entity&gt;&gt;
-CalleBulletin
---
-+ title: String{NotBlank}
-+ artist: String{NotBlank}
-+ album: String{NotBlank}
-+ moment: Date{Temporal(TIMESTAMP), NotNull, Past}
-
-m1=0..*
-m2=1
-Registed by &lt;
-</panel_attributes>
-    <additional_attributes>980.0;70.0;980.0;20.0;10.0;20.0;10.0;90.0</additional_attributes>
-</panel_attributes>
-    <additional_attributes/>
   </element>
 </diagram>
