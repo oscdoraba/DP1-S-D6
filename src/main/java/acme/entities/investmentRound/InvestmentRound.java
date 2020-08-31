@@ -2,6 +2,7 @@ package acme.entities.investmentRound;
 
 import java.util.Date;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
@@ -33,9 +34,9 @@ public class InvestmentRound extends DomainEntity{
 		
 	private static final long serialVersionUID = 1L;
 		
-		
+	@Column(unique = true)	
 	@NotBlank
-	@Pattern(regexp = "\\w{3}\\-\\d{2}\\-\\d{6}")
+	@Pattern(regexp = "^([A-Z]){3}[-]{1}[0-9]{2}[-]{1}[0-9]{6}$")
 	private String ticker;
 	
 	@Temporal(TemporalType.TIMESTAMP)
