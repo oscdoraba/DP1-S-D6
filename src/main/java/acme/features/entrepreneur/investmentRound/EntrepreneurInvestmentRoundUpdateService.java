@@ -69,6 +69,7 @@ public class EntrepreneurInvestmentRoundUpdateService implements AbstractUpdateS
 		assert errors != null;
 		
 		Boolean esSpamTitulo = false, esSpamDescripcion = false, sumaIncorrecta = false , esfinalMode = false;
+		boolean isCurrencyEuro;
 		Integer threshold = 2; //El numero de palabras de spam en los campos titulo y descripcion no puede superar este entero (Limite)
 		Integer palabrasSpamTitulo= 0;
 		Integer palabrasSpamDescripcion= 0;
@@ -166,6 +167,15 @@ public class EntrepreneurInvestmentRoundUpdateService implements AbstractUpdateS
 			
 			errors.state(request, !sumaIncorrecta, "amount", "entrepreneur.investment-round.error.sumaMal");
 		}
+		
+		// Comprobamos las divisas:
+		
+				if (!errors.hasErrors("amount")) { 
+					String currency = entity.getAmount().getCurrency();
+					isCurrencyEuro = currency.equals("€") || currency.equals("EUR");
+					errors.state(request, isCurrencyEuro, "amount", "entreprenur.investment-round.error.euro-currency");
+				}
+		
 
 
 	}

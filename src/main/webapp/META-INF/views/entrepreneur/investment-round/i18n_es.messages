@@ -24,7 +24,7 @@ entrepreneur.investment-round.form.label.finalMode = Modo Final
 entrepreneur.investment-round.form.label.finalModeFuturo = Puede seleccionar aquí un nuevo valor para el modo final
 entrepreneur.investment-round.form.label.true = Sí
 entrepreneur.investment-round.form.label.false = No
-
+entreprenur.investment-round.error.euro-currency = La divisa debe ser EUR o €.
 entrepreneur.investment-round.error.titleSpam = No se puede guardar la ronda de inversion en modo final porque el titulo contiene excesivas palabras spam
 entrepreneur.investment-round.error.descriptionSpam = No se puede guardar la ronda de inversion en modo final porque la descripcion contiene excesivas palabras spam
 entrepreneur.investment-round.error.sumaMal = No se puede guardar la ronda de inversion en modo final porque la suma del presupuesto de sus actividades no tiene un valor igual a la cantidad de dinero que se debe utilizar en la inversion

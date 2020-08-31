@@ -76,6 +76,16 @@ public class EntrepreneurInvestmentRoundCreateService implements AbstractCreateS
 		assert entity != null;
 		assert errors != null;
 		
+		boolean isCurrencyEuro;
+		
+		// Comprobamos las divisas:
+		
+				if (!errors.hasErrors("amount")) { 
+					String currency = entity.getAmount().getCurrency();
+					isCurrencyEuro = currency.equals("€") || currency.equals("EUR");
+					errors.state(request, isCurrencyEuro, "amount", "entreprenur.investment-round.error.euro-currency");
+				}
+		
 
 	}
 

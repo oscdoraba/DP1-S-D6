@@ -22,9 +22,9 @@ administrator.overture.form.label.description = Description
 administrator.overture.form.label.minMoney = Minimum money to spend
 administrator.overture.form.label.maxMoney = Maximum money to spend
 administrator.overture.form.label.email = Email
-administrator.overtures.error.min-euro-currency = The currency must be EUR or €.
-administrator.overtures.error.max-euro-currency = The currency must be EUR or €.
-administrator.overtures.error.not-max = The amount of maximum money must be bigger than the amount of minimum money.
+administrator.overture.error.min-euro-currency = The currency must be EUR or €.
+administrator.overture.error.max-euro-currency = The currency must be EUR or €.
+administrator.overture.error.not-max = The amount of maximum money must be bigger than the amount of minimum money.
 
 
 administrator.overture.form.button.create = Create overture
