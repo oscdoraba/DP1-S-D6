@@ -70,6 +70,31 @@ public class AdministratorOvertureCreateService implements AbstractCreateService
 		assert request != null;
 		assert entity != null;
 		assert errors != null;
+		
+		boolean isCurrencyMinEuro, isCurrencyEuroMaxEuro, isMinMax;
+
+		// Comprobamos las divisas:
+		
+		if (!errors.hasErrors("minMoney")) { 
+			String currencyMin = entity.getMinMoney().getCurrency();
+			isCurrencyMinEuro = currencyMin.equals("€") || currencyMin.equals("EUR");
+			errors.state(request, isCurrencyMinEuro, "minMoney", "administrator.inquiries.error.min-euro-currency");
+		}
+
+		if (!errors.hasErrors("maxMoney")) {
+			String currencyMax = entity.getMaxMoney().getCurrency();
+			isCurrencyEuroMaxEuro = currencyMax.equals("€") || currencyMax.equals("EUR");
+			errors.state(request, isCurrencyEuroMaxEuro, "maxMoney", "administrator.inquiries.error.max-euro-currency");
+		}
+
+		// El máximo del intervalo del dinero debe ser mayor que el mínimo:
+		if (!errors.hasErrors("maxMoney") && !errors.hasErrors("minMoney")) {
+			Double minAmount = entity.getMinMoney().getAmount();
+			Double maxAmount = entity.getMaxMoney().getAmount();
+			isMinMax = minAmount < maxAmount;
+			errors.state(request, isMinMax, "maxMoney", "administrator.inquiries.error.not-max");
+		}
+
 
 	}
 

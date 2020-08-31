@@ -60,6 +60,19 @@ bg=blue</panel_attributes>
 </panel_attributes>
     <additional_attributes>10.0;40.0;10.0;10.0</additional_attributes>
   </element>
+
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>700</x>
+      <y>231</y>
+      <w>70</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;80.0;90.0</additional_attributes>
+  </element>
+
   <element>
     <id>UMLClass</id>
     <coordinates>
@@ -410,7 +423,7 @@ bg=yellow</panel_attributes>
 Indication
 --
 + OPEN_SOURCE
-+ CLOSE_SOURCE
++ CLOSED_SOURCE
 </panel_attributes>
     <additional_attributes/>
   </element>
