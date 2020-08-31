@@ -17,10 +17,14 @@
 
 <acme:form>
 	<acme:form-textbox code="anonymous.calle-bulletin.form.label.title" path="title"/>
+	<jstl:if test="${command !='create'}">
+	<acme:form-moment code="anonymous.calle-bulletin.form.label.moment" path="moment"/>
+	</jstl:if>
 	<acme:form-textbox code="anonymous.calle-bulletin.form.label.artist" path="artist"/>
 	<acme:form-textbox code="anonymous.calle-bulletin.form.label.album" path="album"/>
 	
-
+	<jstl:if test="${command !='show'}">
 	<acme:form-submit code="anonymous.calle-bulletin.form.button.create" action="/anonymous/calle-bulletin/create"/>
+	</jstl:if>
 	<acme:form-return code="anonymous.calle-bulletin.form.button.return"/>
 </acme:form>

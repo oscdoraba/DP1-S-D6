@@ -26,5 +26,8 @@ public interface AnonymousDoradoBulletinRepository extends AbstractRepository {
 
 	@Query("select b from DoradoBulletin b")
 	Collection<DoradoBulletin> findMany();
+	
+	@Query("select b from DoradoBulletin b where b.id = ?1")
+	DoradoBulletin findOne(Integer id);
 
 }

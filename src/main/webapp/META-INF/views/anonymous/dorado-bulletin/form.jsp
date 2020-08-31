@@ -20,7 +20,8 @@
 	<acme:form-textbox code="anonymous.dorado-bulletin.form.label.receiver" path="receiver"/>
 	<acme:form-textbox code="anonymous.dorado-bulletin.form.label.web" path="web"/>
 	
-
+	<jstl:if test="${command !='show'}">
 	<acme:form-submit code="anonymous.dorado-bulletin.form.button.create" action="/anonymous/dorado-bulletin/create"/>
+	</jstl:if>
 	<acme:form-return code="anonymous.dorado-bulletin.form.button.return"/>
 </acme:form>

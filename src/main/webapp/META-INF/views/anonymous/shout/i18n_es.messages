@@ -13,6 +13,7 @@ anonymous.shout.list.label.text = Texto
 anonymous.shout.list.label.moment = Momento
 
 anonymous.shout.form.label.author = Autor
+anonymous.shout.form.label.moment = Momento
 anonymous.shout.form.label.text = Texto
 
 
